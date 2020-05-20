@@ -1,0 +1,195 @@
+Name: George Williams
+
+email: gwilliams@nekls.org
+
+Employer / Position: Northeast Kansas Library Sytem / Next Search Catalog Coordinator
+
+Subject of your talk: Koha open source Integrated Library System, its history, its community, and its role in Kansas libraries.
+
+Description of your talk: A description of the Koha open source project, its community, and the adoption of open source in libraries.
+
+Personal Biography: I'm the Next Search Catalog Coordinator for Northeast Kansas Library System with experience in libraries, teaching, and research.  I am also the current president of koha-US, the Koha users group in the USA.
+
+In the event that your talk is selected: Do you have any contact information (website, email, social media) that you would like us to link to on our website alongside your Bio and talk name/description?: nextkansas.org; koha-us.org; gwilliams@nekls.org; @gwilliams67 on twitter
+
+
+George Williams - Next Search Catalog Coordinator - Northeast Kansas Library System
+  About 18 years in libraries - my journey into libraries was kind of weird - college drop-out; became a bus driver; went back to college and started working at Boise Public Library 10 hours per week when their
+
+What is Koha
+
+  Koha is actually a Maori word for "gift"
+
+  Open source ILS/ILMS - (need to define ILS/ILMS)
+    Developed in late 1999 in New Zealand for the Horowhenua Library Trust
+    Developed to replace a proprietary ILS that has a known Y2K bug
+    Decision made early on to produce Koha as open source project
+
+
+What is the community like
+
+Open source in the library world
+
+Koha in nextkansas
+
+
+The world's first Open Source ILS
+Its history
+Its community
+Its role in Kansas libraries
+
+
+The mission of librarians is to improve society through facilitating knowledge creation in their communities.
+
+-----
+
+[slide-opener]
+
+[slide-question]
+
+How many of you had already heard of the Koha open source project before you read the description of this presentation in the conference program or on the conference website?
+
+[slide-bank-water]
+
+I'm not surprised because knowing whether or not your library uses Koha is kind of like knowing the name of the software that your bank uses to manage your accounts or knowing the name of the software that the city uses to track your water bill.  Those software packages have an indirect impact on people all over the country - all over the world - but usually only the people that work industries like banking or city management know the names of the software packages they use or know which companies sell those products.
+
+[slide-library]
+
+And the same is true for library systems.  Millions of people visit libraries all over the world every day - in Kansas alone, almost 38,000 people visit a public library every day - that's over 13,500,000 library visits a year - and that's in a state with only about 2.5 million people.  But you're probably not going to meet many people that can tell you anything about the software the library uses to manage its day to day business unless you work for a library.
+
+[slide-me]
+
+My name is George Williams and my official title is "Next Search Catalog Coordinator" for Northeast Kansas Library System in Lawrence.  I'm also currently the president of koha-US.  Today I'm going to talk about the Koha open source Integrated Library System.  I'll talk a bit about its history, and the Koha community and the use of Koha by libraries worldwide, in the US, and in Kansas.
+
+I decided to write a proposal for a presentation at this conference for two reasons.
+
+First, one of my coworkers suggested this conference to me, so I looked at the conference website to see if there was a schedule or a list of presentations.  And there wasn't, but when I saw the call for proposals which had a list of 10 suggested topics for anyone that wanted to do a presentation.  Four of those topics stood out to me as things that I actually knew something about.
+
+[slide-topics] - make a slide of the first two topics
+
+The first two were "Open source software and programming languages," and "Communities built around open source technology" and those both apply to Koha.
+
+[slide-topics] - fade in second two topics
+
+But two of the other suggested topics were "Open knowledge and education," and "Anything else considered 'open'." These second two topics struck me because "Open knowledge and education" are at the heart of the idea of "New librarianship."
+
+[slide-lankes]
+
+Most people think of libraries as a big building full of books that's - and they may have ideas about whether or not libraries are still relevant.  But being a librarian has never just been about curating a collection of books.  It's always been about helping people find information.
+
+[slide-gaiman] - Google can bring you back 100,000 answers. A librarian can bring you back the right one. — Neil Gaiman, (https://youtu.be/uH-sR1uCQ6g)
+
+So I thought about all the times I've talked to library people about Koha and thought this might be a good place to go to talk to non-library people about Koha because Koha is an unqualified open source success story.
+
+Koha is known by many in the library world but outside of libraries, Koha does not have a big profile.
+
+[slide-success]
+
+First open source ILS
+First fully web based ILS
+Used worldwide - on all 7 continents (Bob Birchal - Calyx)
+Most used open source ILS in the world (Library technology guides - Koha vs Evergreen)
+Probably the most used ILS in the world (Estimates of usage by the Koha community and Library Technology Guides)
+
+[slide-ilshistory] - Brief history of ILS
+
+Normally when I talk about Koha I'm talking to library people at library conferences or things like that, so normally when I talk about Koha, I usually have to spend a few minutes explaining "Open Source."  Since there aren't any library people here today, I thought I'd get into the history of Koha by doing a 2 minute history of ILS in general.  ILS stands for Integrated Library System.
+
+[slide-ilshistory1] - Fade in card catalog photo (attribute)
+
+The beginning is back in the 1960s when someone at a library said, "Hey, instead of putting all of our metadata on 3x5 cards in a card catalog, why don't we put it in a computer file.  Then instead of having separate Title, Author, and Subject cards for each title, we could just have 1 record for each title that could be searched 3 different ways."  And somebody said, "Hey, great idea, let's do that."
+
+At the same time, the Library of Congress had, more or less, the same idea - to computerize bibliogrphic data - but not as a means of storing the data - but as a means of making it easier to produce the physical cards.  This leads to the development in 1967 of Marc format.
+
+[slide-ilshistory1] - Fade in circulation desk photo (attribute/link)
+
+And while the catalogers were doing that, someone in the circulation department said, "Hey, instead of storing all of our patron data on little 3x5 cards behind the circulation desk, why don't we put that data on a computer, then it would be easier to store and search through that data."  And somebody said "Hey, great idea, let's do that."
+
+And after those two projects were underway, somebody else came along and said "Hey, why don't we INTEGRATE these two systems and add an inventory control module so we can track which patron has which book?"  And somebody said "Hey, we could make money selling computer systems that do all that."
+
+[slide-ilshistory2] - CLSI advertisement (https://core.ac.uk/download/pdf/10205577.pdf)
+
+Starting around 1975, there were several companies selling computer systems to libraries to do, mostly, these three things and that's what the most basic ILS does - cataloging, patron records, and circulation.  But since the beginnings in the 1970s many other features have been added including Acquisitions, Serials, Course Reserves, Authority Control, and, of course, web based patron access catalogs.
+
+[slide-ilshistory3] - Dynix screenshot from wikipedia
+
+In the 70s there were just a few companies that offered integrated library systems - Computer Library Systems Incorporated (CLSI) - GEAC Library Solutions - NOTIS (Northwestern Online Total Integrated System).  By the mid-80s, though, there were about 25-30 companies worldwide, and by the late 90s those 25-30 companies were merging into just the handful that we have today.
+
+Really, right now, the only companies that have systems that are viable for large scale use are Proquest, Innovative, SirsiDynix, Follett, TLC, and OCLC.
+
+Koha comes into the picture in 1999.
+
+[slide-levin] google maps
+
+At the beginning of 1999, The Horowhenua Trust Library in Levin New Zealand discovered that the system they were using had 2 problems.  The first was a Y2K bug.  The second was that they couldn't update the software because it was proprietary and the company that made it had gone out of business.
+
+[slide-htllibrary] - find image and attribute it
+
+In the spring they sent out an RFP and they didn't get any adequate responses.  So, after the failed RFP, they turned to a local company called Katipo Communications and asked them if they could write a system that met all of their needs and have it ready to use by January 3, 2000.
+
+And part of the agreement they reached with Katipo when they wrote their contract for the development was that the end result would be free and open source.
+
+[slide-kohadef] Definition of Koha
+
+They decided to call the software Koha.  The name Koha comes from Maori word for gift - but it's a gift with a hint of reciprocity [need slides]
+
+Throughout the year they worked through a cycle of development, testing, and redevelopment.  And on January 3, 2000, Koha went live at the 4 branches of the HTL.  7 months later in July, Koha 1.0 was available for download on a GNU license.  Within 3 hours, they had 10 downloads.  At that point, 4 people have code in Koha.
+
+Koha operates in LAMP.  Koha is written in Perl.  Most of the libraries I've worked with that are setting up Koha on their own are using Ubuntu.  Most of the supported libraries I've worked with are using Debian.  Most libraries now are updating from MySQL to MariaDB.
+
+[slide-timeline] - Add 1 fadein per line
+
+2000 - 4 developers have code in KohaCon
+2001-2005 - Bugzilla, Wiki, Marc support - 39 people have code in Koha
+2006-2010 - KohaCon, Git, Zebra, LibLime fork - 130 people have code in Koha
+2011-2015 - Bi-annual release, LibLime issue resolved, Regional users groups - 305 people have code in KohaCon
+2016-Present ElasticSearch, MariaDB is added, over 400 people have code in Koha
+
+[slide-k1]
+
+Kansas --
+
+[slide-k2]
+
+Kansas is divided into 7 regional library systems.
+
+[slide-k3]
+
+In 2007, CKLS started exploring two things - 1) a new ILS for the CKLS holdings and 2) the possibility of using that new ILS not just for the CKLS holdings - but of using it to operate a shared catalog that member libraries could join if they wished.  They chose Koha as the ILS and migrated 20 libraries into Koha by the end of 2007.
+
+[slide-k4]
+
+In 2004, NEKLS created the first regional shared catalog in Kansas - working with the KCMO library by adding the NEKLS shared catalog members to the KCMO ILS.  This worked, but it didn't work well.  In 2008, NEKLS chose to migrate its shared catalog members out of the KCMO system and into Koha.  During 2008, the first 11 libraries joined, and during 2009, 17 additional members migrated into Koha.  Currently we have 51 libraries.
+
+[slide-k5]
+
+SEKLS began planning for a regional shared catalog as early as 2006.  By 2008 they had chosen Koha and
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+My job title is, therefore, meaningless unless you know that "Next Search Catalog" is the name of the shared library catalog that NEKLS operates on behalf of 51 libraries in the northeastern corner of the state.  Operating a shared catalog means that you can get a card at Leavenworth Public Library and use that same card at the library in Ottawa.  It also means that when our patrons do a search in our online catalog, they're searching the collections of all 51 libraries at once.  Someone from Seneca can see what's owned at the library in Osage City, and because of our courier network, a patron from one library can request items from any other library in the system and get
