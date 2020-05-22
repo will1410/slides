@@ -2,7 +2,7 @@
  * phantomjs script for printing presentations to PDF.
  *
  * Example:
- * phantomjs print-pdf.js "https://revealjs.com?print-pdf" reveal-demo.pdf
+ * phantomjs print-pdf.js "http://revealjs.com?print-pdf" reveal-demo.pdf
  *
  * @author Manuel Bieh (https://github.com/manuelbieh)
  * @author Hakim El Hattab (https://github.com/hakimel)
@@ -49,7 +49,7 @@ probePage.open( inputFile, function( status ) {
 
 		printPage.onCallback = function( data ) {
 			// For some reason we need to "jump the queue" for syntax highlighting to work.
-			// See: https://stackoverflow.com/a/3580132/129269
+			// See: http://stackoverflow.com/a/3580132/129269
 			setTimeout( function() {
 				console.log( 'Export PDF: Writing file [4/4]' );
 				printPage.render( outputFile );

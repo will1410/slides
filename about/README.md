@@ -1,6 +1,6 @@
 # reveal.js [![Build Status](https://travis-ci.org/hakimel/reveal.js.svg?branch=master)](https://travis-ci.org/hakimel/reveal.js) <a href="https://slides.com?ref=github"><img src="https://s3.amazonaws.com/static.slid.es/images/slides-github-banner-320x40.png?1" alt="Slides" width="160" height="20"></a>
 
-A framework for easily creating beautiful presentations using HTML. [Check out the live demo](https://revealjs.com/).
+A framework for easily creating beautiful presentations using HTML. [Check out the live demo](http://revealjs.com/).
 
 reveal.js comes with a broad range of features including [nested slides](https://github.com/hakimel/reveal.js#markup), [Markdown contents](https://github.com/hakimel/reveal.js#markdown), [PDF export](https://github.com/hakimel/reveal.js#pdf-export), [speaker notes](https://github.com/hakimel/reveal.js#speaker-notes) and a [JavaScript API](https://github.com/hakimel/reveal.js#api). There's also a fully featured visual editor and platform for sharing reveal.js presentations at [slides.com](https://slides.com?ref=github).
 
@@ -86,7 +86,7 @@ The core of reveal.js is very easy to install. You'll simply need to download a 
 
 Some reveal.js features, like external Markdown and speaker notes, require that presentations run from a local web server. The following instructions will set up such a server as well as all of the development tasks needed to make edits to the reveal.js source code.
 
-1. Install [Node.js](https://nodejs.org/) (4.0.0 or later)
+1. Install [Node.js](http://nodejs.org/) (4.0.0 or later)
 
 1. Clone the reveal.js repository
    ```sh
@@ -108,7 +108,7 @@ Some reveal.js features, like external Markdown and speaker notes, require that 
    $ npm start
    ```
 
-1. Open <https://localhost:8000> to view your presentation
+1. Open <http://localhost:8000> to view your presentation
 
    You can change the port by using `npm start -- --port=8001`.
 
@@ -171,7 +171,7 @@ This is based on [data-markdown](https://gist.github.com/1343518) from [Paul Iri
 	<textarea data-template>
 		## Page title
 
-		A paragraph with some text and a [link](https://hakim.se).
+		A paragraph with some text and a [link](http://hakim.se).
 	</textarea>
 </section>
 ```
@@ -554,7 +554,7 @@ To enable lazy loading all you need to do is change your `src` attributes to `da
 ```html
 <section>
   <img data-src="image.png">
-  <iframe data-src="https://hakim.se"></iframe>
+  <iframe data-src="http://hakim.se"></iframe>
   <video>
     <source data-src="video.webm" type="video/webm" />
     <source data-src="video.mp4" type="video/mp4" />
@@ -573,7 +573,7 @@ according to the `viewDistance`.
 
 ```html
 <section>
-	<iframe data-src="https://hakim.se" data-preload></iframe>
+	<iframe data-src="http://hakim.se" data-preload></iframe>
 </section>
 ```
 
@@ -742,10 +742,10 @@ By default, background images are resized to cover the full page. Available opti
 | data-background-opacity          | 1          | Opacity of the background image on a 0-1 scale. 0 is transparent and 1 is fully opaque. |
 
 ```html
-<section data-background-image="https://example.com/image.png">
+<section data-background-image="http://example.com/image.png">
 	<h2>Image</h2>
 </section>
-<section data-background-image="https://example.com/image.png" data-background-size="100px" data-background-repeat="repeat">
+<section data-background-image="http://example.com/image.png" data-background-size="100px" data-background-repeat="repeat">
 	<h2>This background image will be sized to 100px and repeated</h2>
 </section>
 ```
@@ -805,7 +805,7 @@ Reveal.initialize({
 });
 ```
 
-Make sure that the background size is much bigger than screen size to allow for some scrolling. [View example](https://revealjs.com/?parallaxBackgroundImage=https%3A%2F%2Fs3.amazonaws.com%2Fhakim-static%2Freveal-js%2Freveal-parallax-1.jpg&parallaxBackgroundSize=2100px%20900px).
+Make sure that the background size is much bigger than screen size to allow for some scrolling. [View example](http://revealjs.com/?parallaxBackgroundImage=https%3A%2F%2Fs3.amazonaws.com%2Fhakim-static%2Freveal-js%2Freveal-parallax-1.jpg&parallaxBackgroundSize=2100px%20900px).
 
 ### Slide Transitions
 
@@ -863,7 +863,7 @@ You can also add relative navigation links, similar to the built in reveal.js co
 
 ### Fragments
 
-Fragments are used to highlight individual elements on a slide. Every element with the class `fragment` will be stepped through before moving on to the next slide. Here's an example: https://revealjs.com/#/fragments
+Fragments are used to highlight individual elements on a slide. Every element with the class `fragment` will be stepped through before moving on to the next slide. Here's an example: http://revealjs.com/#/fragments
 
 The default fragment style is to start out invisible and fade in. This style can be changed by appending a different class to the fragment:
 
@@ -1021,7 +1021,7 @@ Just press »F« on your keyboard to show your presentation in fullscreen mode. 
 Add `data-autoplay` to your media element if you want it to automatically start playing when the slide is shown:
 
 ```html
-<video data-autoplay src="https://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4"></video>
+<video data-autoplay src="http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4"></video>
 ```
 
 If you want to enable or disable autoplay globally, for all embedded media, you can use the `autoPlayMedia` configuration option. If you set this to `true` ALL media will autoplay regardless of individual `data-autoplay` attributes. If you initialize with `autoPlayMedia: false` NO media will autoplay.
@@ -1039,7 +1039,7 @@ Sometimes it's desirable to have an element, like an image or video, stretch to 
 ```html
 <section>
 	<h2>This video will use up the remaining space on the slide</h2>
-    <video class="stretch" src="https://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4"></video>
+    <video class="stretch" src="http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4"></video>
 </section>
 ```
 
@@ -1093,8 +1093,8 @@ Reveal.initialize({
 
 ## PDF Export
 
-Presentations can be exported to PDF via a special print stylesheet. This feature requires that you use [Google Chrome](https://google.com/chrome) or [Chromium](https://www.chromium.org/Home) and to be serving the presentation from a web server.
-Here's an example of an exported presentation that's been uploaded to SlideShare: https://www.slideshare.net/hakimel/revealjs-300.
+Presentations can be exported to PDF via a special print stylesheet. This feature requires that you use [Google Chrome](http://google.com/chrome) or [Chromium](https://www.chromium.org/Home) and to be serving the presentation from a web server.
+Here's an example of an exported presentation that's been uploaded to SlideShare: http://www.slideshare.net/hakimel/revealjs-300.
 
 ### Separate pages for fragments
 [Fragments](#fragments) are printed on separate slides by default. Meaning if you have a slide with three fragment steps, it will generate three separate slides where the fragments appear incrementally.
@@ -1121,8 +1121,8 @@ To enable the PDF print capability in your presentation, the special print style
 
 ### Instructions
 
-1. Open your presentation with `print-pdf` included in the query string i.e. https://localhost:8000/?print-pdf. You can test this with [revealjs.com?print-pdf](https://revealjs.com?print-pdf).
-  * If you want to include [speaker notes](#speaker-notes) in your export, you can append `showNotes=true` to the query string: https://localhost:8000/?print-pdf&showNotes=true
+1. Open your presentation with `print-pdf` included in the query string i.e. http://localhost:8000/?print-pdf. You can test this with [revealjs.com?print-pdf](http://revealjs.com?print-pdf).
+  * If you want to include [speaker notes](#speaker-notes) in your export, you can append `showNotes=true` to the query string: http://localhost:8000/?print-pdf&showNotes=true
 1. Open the in-browser print dialog (CTRL/CMD+P).
 1. Change the **Destination** setting to **Save as PDF**.
 1. Change the **Layout** to **Landscape**.
@@ -1228,7 +1228,7 @@ Reveal.initialize({
 
 Then:
 
-1. Install [Node.js](https://nodejs.org/) (4.0.0 or later)
+1. Install [Node.js](http://nodejs.org/) (4.0.0 or later)
 2. Run `npm install`
 3. Run `node plugin/notes-server`
 
@@ -1274,7 +1274,7 @@ Served from a static file server accessible (preferably) only to the presenter. 
 
 If you want to use the speaker notes plugin with your master presentation then make sure you have the speaker notes plugin configured correctly along with the configuration shown below, then execute `node plugin/notes-server` in the directory of your master presentation. The configuration below will cause it to connect to the socket.io server as a master, as well as launch your speaker-notes/static-file server.
 
-You can then access your master presentation at `https://localhost:1947`
+You can then access your master presentation at `http://localhost:1947`
 
 Example configuration:
 
@@ -1304,7 +1304,7 @@ Reveal.initialize({
 
 #### Client presentation
 
-Served from a publicly accessible static file server. Examples include: GitHub Pages, Amazon S3, Dreamhost, Akamai, etc. The more reliable, the better. Your audience can then access the client presentation via `https://example.com/path/to/presentation/client/index.html`, with the configuration below causing them to connect to the socket.io server as clients.
+Served from a publicly accessible static file server. Examples include: GitHub Pages, Amazon S3, Dreamhost, Akamai, etc. The more reliable, the better. Your audience can then access the client presentation via `http://example.com/path/to/presentation/client/index.html`, with the configuration below causing them to connect to the socket.io server as clients.
 
 Example configuration:
 
@@ -1338,7 +1338,7 @@ Server that receives the `slideChanged` events from the master presentation and 
 
 Or you can use the socket.io server at [https://reveal-js-multiplex-ccjbegmaii.now.sh/](https://reveal-js-multiplex-ccjbegmaii.now.sh/).
 
-You'll need to generate a unique secret and token pair for your master and client presentations. To do so, visit `https://example.com/token`, where `https://example.com` is the location of your socket.io server. Or if you're going to use the socket.io server at [https://reveal-js-multiplex-ccjbegmaii.now.sh/](https://reveal-js-multiplex-ccjbegmaii.now.sh/), visit [https://reveal-js-multiplex-ccjbegmaii.now.sh/token](https://reveal-js-multiplex-ccjbegmaii.now.sh/token).
+You'll need to generate a unique secret and token pair for your master and client presentations. To do so, visit `http://example.com/token`, where `http://example.com` is the location of your socket.io server. Or if you're going to use the socket.io server at [https://reveal-js-multiplex-ccjbegmaii.now.sh/](https://reveal-js-multiplex-ccjbegmaii.now.sh/), visit [https://reveal-js-multiplex-ccjbegmaii.now.sh/token](https://reveal-js-multiplex-ccjbegmaii.now.sh/token).
 
 You are very welcome to point your presentations at the Socket.io server running at [https://reveal-js-multiplex-ccjbegmaii.now.sh/](https://reveal-js-multiplex-ccjbegmaii.now.sh/), but availability and stability are not guaranteed.
 
@@ -1399,9 +1399,9 @@ Reveal.initialize({
 
 ## MathJax
 
-If you want to display math equations in your presentation you can easily do so by including this plugin. The plugin is a very thin wrapper around the [MathJax](https://www.mathjax.org/) library. To use it you'll need to include it as a reveal.js dependency, [find our more about dependencies here](#dependencies).
+If you want to display math equations in your presentation you can easily do so by including this plugin. The plugin is a very thin wrapper around the [MathJax](http://www.mathjax.org/) library. To use it you'll need to include it as a reveal.js dependency, [find our more about dependencies here](#dependencies).
 
-The plugin defaults to using [LaTeX](https://en.wikipedia.org/wiki/LaTeX) but that can be adjusted through the `math` configuration object. Note that MathJax is loaded from a remote server. If you want to use it offline you'll need to download a copy of the library and adjust the `mathjax` configuration value.
+The plugin defaults to using [LaTeX](http://en.wikipedia.org/wiki/LaTeX) but that can be adjusted through the `math` configuration object. Note that MathJax is loaded from a remote server. If you want to use it offline you'll need to download a copy of the library and adjust the `mathjax` configuration value.
 
 Below is an example of how the plugin can be configured. If you don't intend to change these values you do not need to include the `math` config object at all.
 
@@ -1411,7 +1411,7 @@ Reveal.initialize({
 
 	math: {
 		mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js',
-		config: 'TeX-AMS_HTML-full'  // See https://docs.mathjax.org/en/latest/config-files.html
+		config: 'TeX-AMS_HTML-full'  // See http://docs.mathjax.org/en/latest/config-files.html
 		// pass other options into `MathJax.Hub.Config()`
 		TeX: { Macros: macros }
 	},
@@ -1422,7 +1422,7 @@ Reveal.initialize({
 });
 ```
 
-Read MathJax's documentation if you need [HTTPS delivery](https://docs.mathjax.org/en/latest/start.html#secure-access-to-the-cdn) or serving of [specific versions](https://docs.mathjax.org/en/latest/configuration.html#loading-mathjax-from-the-cdn) for stability.
+Read MathJax's documentation if you need [HTTPS delivery](http://docs.mathjax.org/en/latest/start.html#secure-access-to-the-cdn) or serving of [specific versions](http://docs.mathjax.org/en/latest/configuration.html#loading-mathjax-from-the-cdn) for stability.
 
 #### MathJax in Markdown
 If you want to include math inside of a presentation written in Markdown you need to wrap the formula in backticks. This prevents syntax conflicts between LaTeX and Markdown. For example:
@@ -1435,4 +1435,4 @@ If you want to include math inside of a presentation written in Markdown you nee
 
 MIT licensed
 
-Copyright (C) 2019 Hakim El Hattab, https://hakim.se
+Copyright (C) 2019 Hakim El Hattab, http://hakim.se

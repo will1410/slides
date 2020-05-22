@@ -1,9 +1,9 @@
 /*!
  * reveal.js
- * https://revealjs.com
+ * http://revealjs.com
  * MIT licensed
  *
- * Copyright (C) 2020 Hakim El Hattab, https://hakim.se
+ * Copyright (C) 2020 Hakim El Hattab, http://hakim.se
  */
 (function( root, factory ) {
 	if( typeof define === 'function' && define.amd ) {
@@ -2717,7 +2717,7 @@
 	/**
 	 * Handling the fullscreen functionality via the fullscreen API
 	 *
-	 * @see https://fullscreen.spec.whatwg.org/
+	 * @see http://fullscreen.spec.whatwg.org/
 	 * @see https://developer.mozilla.org/en-US/docs/DOM/Using_fullscreen_mode
 	 */
 	function enterFullscreen() {
@@ -3212,7 +3212,7 @@
 				element.classList.remove( 'present' );
 				element.classList.remove( 'future' );
 
-				// https://www.w3.org/html/wg/drafts/html/master/editing.html#the-hidden-attribute
+				// http://www.w3.org/html/wg/drafts/html/master/editing.html#the-hidden-attribute
 				element.setAttribute( 'hidden', '' );
 				element.setAttribute( 'aria-hidden', 'true' );
 
