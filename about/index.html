@@ -4,20 +4,15 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
 	<title>About George</title>
+
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/reveal.css">
-	<link rel="stylesheet" href="css/theme/sky.css">
-	<!-- Theme used for syntax highlighting of code -->
-	<link rel="stylesheet" href="lib/css/monokai.css">
-	<!-- Printing and PDF exports -->
-	<script>
-		var link = document.createElement('link');
-		link.rel = 'stylesheet';
-		link.type = 'text/css';
-		link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
-		document.getElementsByTagName('head')[0].appendChild(link);
-	</script>
+	<link rel="stylesheet" href="css/theme/sky-mod.css">
+
+	<!-- Theme used for syntax highlighted code -->
+	<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
 	<style>
 		h1,
 		h2,
@@ -94,17 +89,22 @@
 							<li>+Bus driver, Restaurant manager, Cook, Dishwasher, Sophisticated man about town</li>
 						</ul>
 					</div>
-					<aside class="notes">Before I took this job I worked for 9 years at the Latah County Library District in Latah County Idaho, which is a part of the VALNet library consortium and I was there in 2012 when VALNet migrated to Koha.  And before that I was the Bookmobile driver for Boise Public Library.  And I have a degree in medieval British literature which totally prepared me for being a Koha system administrator.  It's amazing how much studying medieval Arthurian literature and reading Chaucer prepare you for beign a librarian.</aside>
+					<aside class="notes">Before I took this job I worked for 9 years at the Latah County Library District in Latah County Idaho, which is a part of the VALNet library consortium and I was there in 2012 when VALNet migrated to Koha. And before
+						that I was the Bookmobile driver for Boise Public Library. And I have a degree in medieval British literature which totally prepared me for being a Koha system administrator. It's amazing how much studying medieval Arthurian literature
+						and reading Chaucer prepare you for beign a librarian.</aside>
 				</section>
 
 				<section id="contact">
 					<h2>Contact information</h2><br />
-					<h3><a href="mailto:&#103;&#119;&#105;&#108;&#108;&#105;&#097;&#109;&#115;+&#115;&#108;&#105;&#100;&#101;&#115;&#064;&#110;&#101;&#107;&#108;&#115;&#046;&#111;&#114;&#103;?subject=I%20saw%20your%20lousy%20presentation%20on%20slides.hopperdietzel.org">Send me an e-mail</a><h3>
-					<h3><a href="https://twitter.com/gwilliams67" target="_blank">Find me on Twitter</a></h3>
-					<h3><a href="https://www.facebook.com/georgewlibrary" target="_blank">Find me on Facebook</a></h3>
-					<h3><a href="https://www.nextkansas.org" target="_blank">Next Search Catalog Coordinator</a><br /><a href="https://www.nekls.org" target="_blank">Northeast Kansas Library System </a></h3>
-					<h3><a href="https://hopperdietzel.org" target="_blank">Personal website</a></h3><br />
-					<aside class="notes">Here is my contact information</aside>
+					<h3><a
+							href="mailto:&#103;&#119;&#105;&#108;&#108;&#105;&#097;&#109;&#115;+&#115;&#108;&#105;&#100;&#101;&#115;&#064;&#110;&#101;&#107;&#108;&#115;&#046;&#111;&#114;&#103;?subject=I%20saw%20your%20lousy%20presentation%20on%20slides.hopperdietzel.org">Send
+							me an e-mail</a>
+						<h3>
+							<h3><a href="https://twitter.com/gwilliams67" target="_blank">Find me on Twitter</a></h3>
+							<h3><a href="https://www.facebook.com/georgewlibrary" target="_blank">Find me on Facebook</a></h3>
+							<h3><a href="https://www.nextkansas.org" target="_blank">Next Search Catalog Coordinator</a><br /><a href="https://www.nekls.org" target="_blank">Northeast Kansas Library System </a></h3>
+							<h3><a href="https://hopperdietzel.org" target="_blank">Personal website</a></h3><br />
+							<aside class="notes">Here is my contact information</aside>
 				</section>
 
 			</div>
@@ -115,23 +115,20 @@
 			</span>
 		</div>
 	</div>
-	<script src="js/reveal.js"></script>
+
+	<script src="dist/reveal.js"></script>
+	<script src="plugin/notes/notes.js"></script>
+	<script src="plugin/markdown/markdown.js"></script>
+	<script src="plugin/highlight/highlight.js"></script>
 	<script>
-		// More info about config & dependencies:
-		// - https://github.com/hakimel/reveal.js#configuration
-		// - https://github.com/hakimel/reveal.js#dependencies
+		// More info about initialization & config:
+		// - https://revealjs.com/initialization/
+		// - https://revealjs.com/config/
 		Reveal.initialize({
-			dependencies: [{
-				src: 'plugin/markdown/marked.js'
-			}, {
-				src: 'plugin/markdown/markdown.js'
-			}, {
-				src: 'plugin/notes/notes.js',
-				async: true
-			}, {
-				src: 'plugin/highlight/highlight.js',
-				async: true
-			}]
+			hash: true,
+
+			// Learn about plugins: https://revealjs.com/plugins/
+			plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
 		});
 	</script>
 </body>
